@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Smoothies</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/small-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="https://mahatmarice.com/wp-content/uploads/2019/08/FSRD-Breakfast-Smoothie-with-Rice-and-Peanut-Butter-050.jpg" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">Welcome to Smoothies</h1>
+        <p>A smoothie is a drink made from pureed raw fruit and/or vegetables, using a blender. A smoothie often has a liquid base such as water, fruit juice, plant milk, and sometimes dairy products. Smoothies may be made using other ingredients like: crushed ice, sweeteners, whey powder, chocolate, nutritional supplements, and anything you like.</p>
+        <a class="btn btn-primary" href="#">Call to Action!</a>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">Find everything you need to make a smoothie here!</p>
+      </div>
+    </div>
+
+    <!-- Content Row -->
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Smoothie Tutorial</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VYYhlbeTdbU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.youtube.com/results?search_query=smoothie+tutorial" class="btn btn-primary btn-sm">Others Like This</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Ingredients</h2>
+            <p class="card-text"> Purchase Ingredients at Whole Foods Market: </p>
+            <img class="img-fluid rounded mb-4 mb-lg-0" src="freshFruits.jpg" alt="Fruit">
+            <p class="card-text"> "Who are we? Well, we seek out the finest natural and organic foods available, maintain the strictest quality standards in the industry, and have an unshakeable commitment to sustainable agriculture." </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://products.wholefoodsmarket.com/" class="btn btn-primary btn-sm">Shop</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Recipes</h2>
+            <h6>price <span id="theprice">$1.00</span></h6>
+            <p class="card-text">From green smoothie recipes to a basic strawberry smoothie, here are all the smoothie inspiration you need right here!</p>
+            <img class="img-fluid rounded mb-4 mb-lg-0" src="smoothieRecipes.jpg" alt="Fruit">
+          </div>
+          <div class="card-footer">
+            <a href="https://fitfoodiefinds.com/100-healthy-smoothie-recipes/" class="btn btn-primary btn-sm">See Recipes</a>
+            <a href="#" id="changePrice" class="btn btn-primary btn-sm">Change Price</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript">
+  console.log("Hello world");
+  $("nav").load("nav.html")
+
+    function changePrice(){
+        $("#theprice").text("20 pesos")
+    }
+
+    $("#changePrice").click(changePrice);
+
+
+</script>
+</body>
+
+</html>
